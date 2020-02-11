@@ -1,0 +1,164 @@
+button {
+    border-radius: 0px;
+}
+button:focus {
+    outline: 0;
+}
+
+//Navigation Menu Button
+.btn-menu {
+    z-index: 1;
+    display: inline-block;
+    height: 64px;
+    width: 128px;
+    border: none;
+    background-color: transparent;
+    margin-bottom: -8px;
+    margin-top: -8px;
+    margin-right: -16px;
+}
+.btn-active {
+    background-color: rgba(0,0,0,0.75);
+}
+
+//Desktop Button
+.btn-desktop {
+    border: 1px solid black;
+    padding: 8px 8px 8px 8px;
+    color: black;
+}
+.btn-desktop:hover {
+    border: 1px solid map-get($colors, secondary);
+    background-color: map-get($colors, secondary);
+    color: white;
+    
+}
+//Home Button 
+.background-btn-left-home {
+    height: 42px;
+    width: 4px;
+    background-color: map-get($colors, primary);
+    transform: skewY(-40deg);
+}
+.background-btn-bottom-home {
+    height: 4px;
+    width: 112px;
+    background-color: map-get($colors, primary);
+    transform: skewX(-48deg);
+}
+.background-btn-left-home2 {
+    height: 42px;
+    width: 4px;
+    background-color: map-get($colors, primary);
+    transform: skewY(-40deg);
+}
+.background-btn-bottom-home2 {
+    height: 4px;
+    width: 101px;
+    background-color: map-get($colors, primary);
+    transform: skewX(-48deg);
+}
+
+
+//Projects Button
+.project-visit-btn {
+    background-color: purple;
+    padding: 8px 8px 8px 8px;
+    color: white;
+    border: none;
+}
+.background-btn-left {
+    height: 39px;
+    width: 4px;
+    background-color: #5207aa;
+    transform: skewY(-40deg);
+}
+.background-btn-bottom {
+    height: 4px;
+    width: 46px;
+    background-color: #5207aa;
+    transform: skewX(-48deg);
+}
+.project-visit-btn-cc {
+    background-color: #108215;
+    padding: 8px 8px 8px 8px;
+    color: white;
+    border: none;
+}
+.background-btn-left-cc {
+    height: 39px;
+    width: 4px;
+    background-color: #b8b20b;
+    transform: skewY(-40deg);
+}
+.background-btn-bottom-cc {
+    height: 4px;
+    width: 46px;
+    background-color: #b8b20b;
+    transform: skewX(-48deg);
+}
+
+//Template Button
+.template-visit-btn {
+    background-color: #94BA26;
+    padding: 8px 8px 8px 8px;
+    color: white;
+    border: none;
+}
+.template-background-btn-left {
+    height: 40px;
+    width: 4px;
+    background-color: #03a8c5;
+    transform: skewY(-40deg);
+}
+.template-background-btn-bottom {
+    height: 4px;
+    width: 46px;
+    background-color: #03a8c5;
+    transform: skewX(-48deg);
+}
+
+//Resume Button
+.resume-btn {
+    background-color: transparent;
+    color: black;
+    padding: 8px 8px 8px 8px;
+    border: 1px solid black;
+}
+.resume-btn:hover {
+    background-color: map-get($colors, secondary);
+    color: white;
+    border: none;
+}
+.resume-background-btn-left {
+    background-color: map-get($colors, primary);
+    transform: skewY(-40deg);
+    height: 40px;
+    width: 4px;
+}
+.resume-background-btn-bottom {
+    background-color: map-get($colors, primary);
+    transform: skewX(-48deg);
+    height: 4px;
+    width: 85px;
+}
+.resume-background-btn-left2 {
+    background-color: map-get($colors, primary);
+    transform: skewY(-40deg);
+    height: 42px;
+    width: 4px;
+}
+.resume-background-btn-bottom2 {
+    background-color: map-get($colors, primary);
+    transform: skewX(-48deg);
+    height: 4px;
+    width: 112px;
+}
+
+//Home Mobile
+.btn-mobile {
+    padding: 14px 14px 14px 14px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+}
